@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/love-counter-react/static/css/main.a9f3bc64.css",
+    "main.js": "/love-counter-react/static/js/main.2315516f.js",
+    "static/js/453.45e96445.chunk.js": "/love-counter-react/static/js/453.45e96445.chunk.js",
+    "index.html": "/love-counter-react/index.html",
+    "main.a9f3bc64.css.map": "/love-counter-react/static/css/main.a9f3bc64.css.map",
+    "main.2315516f.js.map": "/love-counter-react/static/js/main.2315516f.js.map",
+    "453.45e96445.chunk.js.map": "/love-counter-react/static/js/453.45e96445.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9f3bc64.css",
+    "static/js/main.2315516f.js"
+  ]
+}
