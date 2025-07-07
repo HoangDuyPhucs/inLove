@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>❤️ Love Counter ❤️</h1>
+      <h1>❤️ Hoàng Phucs - Cao Anh ❤️</h1>
       <h2>💖 In love for 💖</h2>
       <div className="counter">
         {Object.entries(duration).map(([key, value]) => (
