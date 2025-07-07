@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  background-color: #121212;
+  color: #fff;
+  min-height: 100vh;
+  padding: 50px;
+  background-image: url('https://www.transparenttextures.com/patterns/hearts.png');
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+  color: #ffb6c1;
+}
+
+.counter {
+  font-size: 2em;
+  margin-top: 20px;
+  line-height: 2em;
+}
