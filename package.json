@@ -2,7 +2,7 @@
   "name": "in-love",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hoangphuc.github.io/love-counter-react",
+  "homepage": "https://hoangduyphucs.github.io/inLove",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
