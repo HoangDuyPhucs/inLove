@@ -1,0 +1,16 @@
+.falling-heart {
+  position: fixed;
+  top: -30px;
+  color: #ff69b4;
+  z-index: 9999;
+  pointer-events: none;
+  animation-name: fall;
+  animation-timing-function: linear;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}

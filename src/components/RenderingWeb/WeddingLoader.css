@@ -1,0 +1,86 @@
+.wedding-loader {
+  position: fixed;
+  inset: 0;
+  background-color: #fff0f5;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Pacifico', cursive;
+}
+
+.loading-text {
+  font-size: 1.5rem;
+  color: #d81b60;
+  margin-bottom: 20px;
+}
+
+.loading-bar {
+  position: relative;
+  width: 80%;
+  height: 10px;
+  background-color: #ffcce5;
+  border-radius: 5px;
+  overflow: visible;
+}
+
+.drive-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  animation: drive 5s linear forwards;
+  left: -100px;
+}
+
+.car {
+  position: absolute;
+  bottom: 100%;
+  left: -100px;
+  height: 50px;
+  z-index: 2;
+}
+
+.heart-trail {
+  position: absolute;
+  font-size: 1.2rem;
+  animation: heartFly 5s linear forwards;
+  z-index: 1;
+  white-space: nowrap;
+  pointer-events: none;
+  margin-left: -90px;
+}
+
+@keyframes drive {
+  from {
+    left: -100px;
+  }
+  to {
+    left: calc(100% - 60px);
+  }
+}
+
+@keyframes heartFly {
+  from {
+    left: -140px;
+    opacity: 1;
+  }
+  to {
+    left: calc(100% - 140px);
+    opacity: 0.5;
+  }
+}
+@keyframes floatHearts {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}

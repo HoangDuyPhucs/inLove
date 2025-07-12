@@ -1,0 +1,58 @@
+.pin-entry-screen {
+  height: 100vh;
+  background-color: #fff0f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pin-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.pin-display {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.dot {
+  font-size: 2rem;
+}
+
+.pin-error {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.pin-keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 10px;
+}
+
+.pin-key {
+  padding: 20px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #ff80ab;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.pin-key:hover {
+  transform: scale(1.05);
+}
+
+.pin-key.del {
+  background-color: #999;
+}
+
+.pin-key.ok {
+  background-color: #4caf50;
+}

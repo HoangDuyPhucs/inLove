@@ -1,0 +1,42 @@
+.counter-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px 50px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(255, 105, 180, 0.2);
+}
+
+.counter {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.person {
+  text-align: center;
+}
+
+.person img {
+  object-fit: cover;
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #ff80ab;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+}
+
+.person p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #d81b60;
+}
+
