@@ -51,7 +51,7 @@ function App() {
             cursor: "pointer",
           }}
         >
-          <p>💖 Bắt đầu đến với thế giới của Anh 💖</p>
+          <p class="text-intro">💖 Sẵn sàng nhận món quá siêu đáng yêu của anh chưaaa. 💖</p>
           <img
             src="/inLove/image/img_dog.png"
             alt="Start Button"

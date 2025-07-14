@@ -15,7 +15,8 @@
 .pin-display {
   display: flex;
   gap: 10px;
-  margin-bottom: 10px;
+  height: 32px;
+  margin-bottom: 15px;
 }
 
 .dot {
