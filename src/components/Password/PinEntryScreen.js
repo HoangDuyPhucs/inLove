@@ -49,7 +49,7 @@ function PinEntryScreen({ onSuccess }) {
   const renderDisplay = () => {
     return input.split("").map((_, i) => (
       <span key={i} className="dot">
-        ⚫
+        💗
       </span>
     ));
   };

@@ -8,12 +8,15 @@
   justify-content: center;
   align-items: center;
   font-family: 'Pacifico', cursive;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .loading-text {
   font-size: 1.5rem;
   color: #d81b60;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .loading-bar {
@@ -70,6 +73,7 @@
     opacity: 0.5;
   }
 }
+
 @keyframes floatHearts {
   0% {
     opacity: 0;
@@ -84,3 +88,113 @@
     transform: translateY(-20px);
   }
 }
+
+
+@media (max-width: 768px) {
+  .loading-text {
+    font-size: 1.3rem;
+  }
+
+  .car {
+    height: 40px;
+  }
+
+  .heart-trail {
+    font-size: 1rem;
+    margin-left: -40px;
+  }
+
+  .loading-bar {
+    width: 85%;
+    max-width: 420px; 
+  }
+
+  .drive-container {
+    left: -60px; 
+    animation: driveTablet 5s linear forwards;
+  }
+
+  .car {
+    left: 0;
+  }
+
+  .heart-trail {
+    left: 0;
+    animation: heartFlyTablet 5s linear forwards;
+  }
+
+  @keyframes driveTablet {
+    from {
+      left: -60px;
+    }
+    to {
+      left: calc(100% - 40px); 
+    }
+  }
+
+  @keyframes heartFlyTablet {
+    from {
+      left: -60px;
+      opacity: 1;
+    }
+    to {
+      left: calc(100% - 70px); 
+      opacity: 0.5;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .loading-text {
+    font-size: 1.1rem;
+  }
+
+  .car {
+    height: 35px;
+  }
+
+  .heart-trail {
+    font-size: 0.9rem;
+    margin-left: -40px;
+  }
+
+  .loading-bar {
+    width: 80%;
+    max-width: 320px; 
+  }
+
+  .drive-container {
+    left: -50px; 
+    animation: driveMobile 5s linear forwards;
+  }
+
+  .car {
+    left: 0;
+  }
+
+  .heart-trail {
+    left: 0;
+    animation: heartFlyMobile 5s linear forwards;
+  }
+
+  @keyframes driveMobile {
+    from {
+      left: -50px;
+    }
+    to {
+      left: calc(100% - 35px); 
+    }
+  }
+
+  @keyframes heartFlyMobile {
+    from {
+      left: -50px;
+      opacity: 1;
+    }
+    to {
+      left: calc(100% - 50px); 
+      opacity: 0.5;
+    }
+  }
+}
+
